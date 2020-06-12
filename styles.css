@@ -1,0 +1,154 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #563e91 !important;
+}
+
+/* .navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+} */
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #563e91 !important;
+    text-align: center;
+  }
+  .Rose {
+    visibility: hidden;
+  }
+  hr {
+    text-align: center !important;
+  }
+  .display-3 {
+    color: #ffffff;
+    font-family: 'Arizonia', cursive;
+    text-align: Center !important;
+  }
+  .subtext-header {
+    text-align: center !important ;
+  }
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #563e91 !important;
+    text-align: center;
+  }
+  .Rose {
+    visibility: hidden;
+  }
+
+  hr {
+    text-align: center !important;
+    width: 25% !important;
+  }
+  .display-3 {
+    color: #ffffff;
+    font-family: 'Arizonia', cursive;
+    text-align: Center !important;
+  }
+  .subtext-header {
+    text-align: center !important ;
+  }
+}
+
+.rgba-gradient {
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(213, 15, 61, 0.6),
+    rgba(13, 17, 198, 0.69) 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(213, 15, 61, 0.6),
+    rgba(13, 17, 198, 0.69) 100%
+  );
+  background: linear-gradient(
+    to 45deg,
+    rgba(213, 15, 61, 0.6),
+    rgba(13, 17, 198, 0.69) 100%
+  );
+}
+nav {
+  background-color: indigo !important;
+  padding-top: 0px !important;
+}
+.container-fluid purple-gradient {
+  padding-top: 20px !important;
+}
+.display-3 {
+  color: #ffffff;
+  font-family: 'Arizonia', cursive;
+  text-align: left;
+  margin-left: 10%;
+  padding-bottom: 0 !important;
+}
+
+.mama {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2;
+  color: indigo !important;
+}
+.floral {
+  width: 100%;
+  display: block;
+  position: absolute;
+}
+.Rose {
+  float: right;
+  clear: all;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110%;
+  width: auto;
+  vertical-align: bottom;
+  margin-bottom: 0px;
+}
+.rose {
+  background-repeat: no-repeat;
+  height: 50%;
+  width: auto;
+  margin-bottom: 0px;
+}
+.photo {
+  margin-bottom: 0px;
+}
+h5 {
+  color: indigo !important;
+}
+/* h2 {
+  color: rgba(213, 15, 62, 0.6);
+} */
+.subtext-header {
+  text-align: left;
+  margin-left: 8%;
+}
+hr {
+  text-align: left;
+  margin-left: 8%;
+}
+/* .btn {
+  margin-left: 30%;
+} */
+/* Resume Page */
+.rec {
+  padding-right: 0px !important;
+  padding-left: 0px important;
+  margin: 0px !important;
+}
+/* end */

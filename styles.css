@@ -212,6 +212,14 @@ hr {
     rgba(211, 149, 155, 0.69) 100%
   );
 }
+
+.gradient {
+  background: linear-gradient(
+    45deg,
+    rgba(39, 64, 70, 0.6),
+    rgba(211, 149, 155, 0.69) 100%
+  );
+}
 #footer {
   background: linear-gradient(
     45deg,

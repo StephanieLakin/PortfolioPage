@@ -13,9 +13,17 @@ header,
     height: 100vh;
   }
 }
+a.navbar-brand.mama {
+  color: #274046 !important;
+}
+a.navbar-brand.mama.top-nav-collapse {
+  color: #d3959b !important;
+}
 
 .top-nav-collapse {
-  background-color: #563e91 !important;
+  background-color: #274046 !important;
+  color: #fff !important;
+  visibility: visible;
 }
 
 /* .navbar:not(.top-nav-collapse) {
@@ -24,14 +32,23 @@ header,
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #563e91 !important;
+    background: #274046 !important;
     text-align: center;
+    color: #fff !important;
   }
+  a.navbar-brand.mama {
+    color: #d3959b !important;
+    visibility: visible;
+  }
+
   .Rose {
     visibility: hidden;
   }
   hr {
     text-align: center !important;
+  }
+  .mama {
+    color: #fff !important;
   }
   .display-3 {
     color: #ffffff;
@@ -44,8 +61,13 @@ header,
 }
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    background: #563e91 !important;
+    background: #274046 !important;
     text-align: center;
+    color: #fff !important;
+  }
+  .navbar-brand.mama.navbar-toggler {
+    color: #fff !important;
+    visibility: visible;
   }
   .Rose {
     visibility: hidden;
@@ -53,7 +75,7 @@ header,
 
   hr {
     text-align: center !important;
-    width: 25% !important;
+    width: 75% !important;
   }
   .display-3 {
     color: #ffffff;
@@ -68,22 +90,22 @@ header,
 .rgba-gradient {
   background: -moz-linear-gradient(
     45deg,
-    rgba(213, 15, 61, 0.6),
-    rgba(13, 17, 198, 0.69) 100%
+    rgba(39, 64, 70, 0.6),
+    rgba(211, 149, 155, 0.69) 100%
   );
   background: -webkit-linear-gradient(
     45deg,
-    rgba(213, 15, 61, 0.6),
-    rgba(13, 17, 198, 0.69) 100%
+    rgba(39, 64, 70, 0.6),
+    rgba(211, 149, 155, 0.69) 100%
   );
   background: linear-gradient(
-    to 45deg,
-    rgba(213, 15, 61, 0.6),
-    rgba(13, 17, 198, 0.69) 100%
+    45deg,
+    rgba(39, 64, 70, 0.6),
+    rgba(211, 149, 155, 0.69) 100%
   );
 }
 nav {
-  background-color: indigo !important;
+  /* background-color: indigo !important; */
   padding-top: 0px !important;
 }
 .container-fluid purple-gradient {
@@ -102,7 +124,7 @@ nav {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 2;
-  color: indigo !important;
+  color: #274046 !important;
 }
 .floral {
   width: 100%;
@@ -129,7 +151,7 @@ nav {
   margin-bottom: 0px;
 }
 h5 {
-  color: indigo !important;
+  color: #274046 !important;
 }
 /* h2 {
   color: rgba(213, 15, 62, 0.6);
@@ -151,4 +173,57 @@ hr {
   padding-left: 0px important;
   margin: 0px !important;
 }
+#galleryApp {
+  background: url('./resources/img/gallery.JPG') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+#Paws {
+  background: url('./resources/img/Paws.JPG') no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #8b8378;
+  height: 300px;
+  width: 100%;
+}
+#town {
+  background: url('./resources/img/town.JPG') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+.me {
+  color: #274046 !important;
+}
+#contact,
+#projects {
+  background: linear-gradient(
+    45deg,
+    rgba(39, 64, 70, 0.6),
+    rgba(211, 149, 155, 0.69) 100%
+  );
+}
+#footer {
+  background: linear-gradient(
+    45deg,
+    rgba(211, 149, 155, 0.6),
+    rgba(39, 64, 70, 0.69) 100%
+  );
+}
+.btnColor1 {
+  background-color: #274046;
+}
+.dkgrey {
+  color: #274046;
+}
+
 /* end */

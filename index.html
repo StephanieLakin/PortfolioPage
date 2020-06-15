@@ -14,6 +14,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="scripts.js"></script>
     <title>ArtByStephanie</title>
 </head>
 
@@ -23,7 +24,7 @@
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
             <div class="container">
-                <a class="navbar-brand mama" style="color:#D3959B" href="#">Stephanie J. Lakin</a>
+                <a class="navbar-brand mama" style="color:#D3959B" href="#intro">Stephanie J. Lakin</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
                     aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -50,7 +51,7 @@
                             <a class="nav-link" href="#contact" data-offset="90">Contact</a>
                         </li>
                     </ul>
-                    <!-- Social Icon  -->
+                    <!-- Social Icons  -->
                     <ul class="navbar-nav nav-flex-icons">
                         <li class="nav-item">
                             <a class="nav-link">
@@ -73,11 +74,11 @@
         </nav>
         <!--End  Navbar -->
         <!-- Home Page -->
-        <div id="intro-section" class="view">
+        <div id="intro" class="view">
             <!-- <video class="video-intro" playsinline autoplay muted loop <source src="./resources/img/GullsVideo.mp4"
                 type="video/mp4">
             </video> -->
-            <img class="img-fluid Rose" src="resources\img\FadedRose.jpg">
+            <img class="img-fluid Rose" src="./resources/img/FadedRose.jpg" alt="self">
             <!-- Mask & flexbox -->
             <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
                 <!-- Content -->
@@ -89,7 +90,7 @@
                             <h4 class="subtext-header text-center mt-2 mb-4 me"> Fine
                                 Art, Web
                                 Development, Branding and Design Services</h4>
-                            <a href="#!" class="btn btn-rounded col-sm-offset-4 btn-outline-white">
+                            <a href="#contact" class="btn btn-rounded col-sm-offset-4 btn-outline-white">
                                 <i class="fa fa-heart" style="color: #D3959B;"></i> Contact
                             </a>
                         </div>
@@ -102,95 +103,83 @@
     <main>
         <div class="container-fluid" id="about">
             <!--Section: about-->
-            <section id="about" class="py-5 mt-5 mb-5">
-                <!-- Container -->
+            <section class="py-5 my-5">
                 <div class="container">
                     <!-- Section heading -->
-                    <div class="row mb-3">
-                        <section id="about" class="py-5 mt-5 mb-5">
-                            <div class="col-xl-10 col-md-11 col-10">
-                                <h2 class="h2-responsive font-weight-bold text-center me mb-3">About Me</h2>
-                                <!-- Section description -->
-                                <p class="lead grey-text text-center w-responsive mx-auto mb-5">Currently enrolled full
-                                    time
-                                    in
-                                    BA
-                                    Graphic Design and Media Arts w/concentration in Web Design ++ (BA.GDM.WDE) program,
-                                    while
-                                    continuing to work full time as a Software Engineer. I have been passionate about
-                                    Art
-                                    and
-                                    Technology
-                                    most of my life. </p>
+                    <div class="row"></div>
 
-                                <h5 class="h5-responsive font-weight-bold text-center me mb-3">Fine Art</h5>
-                                <p class="grey-text  text-center">As a toddler, I used to litter the floor with crumpled
-                                    papers
-                                    while
-                                    drawing endlessly for hours, discarding my imperfect attempts in frustration. As you
-                                    can
-                                    see here...I'm still at it. I have a fascination with faces, and the style and
-                                    techniques of the great 15th & 16th Century Masters.</p>
-                            </div>
-                    </div>
-                    <div class="row mb-3">
-                        <!-- <div class="col-1">
-                            <i class="fa fa-mail-forward fa-lg purple-text"></i>
-                        </div> -->
+                    <div class="col-xl-10 col-md-11 col-10">
+                        <h2 class="h2-responsive font-weight-bold text-center me mb-3">About Me</h2>
+                        <!-- Section description -->
+                        <p class="lead grey-text text-center w-responsive mx-auto mb-5">Currently enrolled full
+                            time
+                            in
+                            BA
+                            Graphic Design and Media Arts w/concentration in Web Design ++ (BA.GDM.WDE) program,
+                            while
+                            continuing to work full time as a Software Engineer. I have been passionate about
+                            Art
+                            and
+                            Technology
+                            most of my life. </p>
+                        <div class="col-xl-10 col-md-11 col-10">
+                            <h5 class="h5-responsive font-weight-bold text-center me mb-3">Fine Art</h5>
+                            <p class="grey-text  text-center mb-5">As a toddler, I used to litter the floor with
+                                crumpled
+                                papers
+                                while
+                                drawing endlessly for hours, discarding my imperfect attempts in frustration. As
+                                you
+                                can
+                                see here...I'm still at it. I have a fascination with faces, and the style and
+                                techniques of the great 15th & 16th Century Masters.</p>
+                        </div>
+
+
                         <div class="col-xl-10 col-md-11 col-10">
                             <h5 class="h5-responsive font-weight-bold mb-3 text-center me">Web Development</h5>
-                            <p class="grey-text  text-center">My lifelong love of art and background in commercial art,
-                                naturally progressed into web development, once this technology became available. I went
-                                back to school in 2014 to bein my career in application and web development. It is a
-                                constant learning process. It is the learning that keeps me interesting in this ever
+                            <p class="grey-text  text-center mb-5">My lifelong love of art and background in
+                                commercial art,
+                                naturally progressed into web development, once this technology became
+                                available. I
+                                went
+                                back to school in 2014 to bein my career in application and web development. It
+                                is a
+                                constant learning process. It is the learning that keeps me interesting in this
+                                ever
                                 growing
-                                and changing field. </p>
+                                and changing field.</p>
                         </div>
-                    </div>
-                    <div class="row">
-                        <!-- <div class="col-1">
-                            <i class="fa fa-mail-forward fa-lg purple-text"></i>
-                        </div> -->
+
+
                         <div class="col-xl-10 col-md-11 col-10">
                             <h5 class="h5-responsive font-weight-bold mb-3 text-center">Graphic Design</h5>
-                            <p class="grey-text mb-0 text-center">Print media is still being used in some areas, and I
+                            <p class="grey-text mb-0 text-center mb-5">Print media is still being used in some
+                                areas, and I
                                 have
                                 enjoyed relearning this process using todays innovative technologies.</p>
                         </div>
                     </div>
                 </div>
-        </div>
-        </div>
-
-        </section>
-        <!--Section: about-->
+            </section>
+            <!--Section: about-->
         </div>
         <!--Section: projects-->
         <section id="projects" class="text-center py-5" style="background-color: #eee;">
-
-            <!-- Container -->
             <div class="container">
-
-                <!-- Section heading -->
-                <div class="row mb-3">
+                <div class="row mb-3 mx-auto">
                     <section id="projects" class="text-center py-5" style="background-color: #eee;">
                         <div class="col-xl-10 col-md-11 col-10">
                             <h2 class="h1-responsive font-weight-bold text-center  me mb-5">My Favorite Projects</h2>
-                            <!-- Section description -->
+
                             <p class="white-text w-responsive mx-auto mb-5">Here are a few of my favorite projects,
                                 created
                                 as part
                                 of the learning process in Web Development and Graphic Design.</p>
-
-
-                            <div class="row text-center">
-
-
+                            <div class="row text-center mx-auto">
                                 <div class="col-lg-4 col-md-12 mb-lg-0 mb-4 ">
                                     <div class="card">
                                         <div class="view overlay rounded z-depth-1" id="galleryApp">
-                                            <!-- <img src="./resources/img/gallery.JPG" class="img-fluid"
-                                            alt="Gallery project image"> -->
                                             <a>
                                                 <div class="mask rgba-white-slight "></div>
                                             </a>
@@ -198,12 +187,9 @@
                                         <div class="card-body pb-0">
                                             <h4 class="font-weight-bold my-3">Art By Stephanie</h4>
                                             <p class="grey-text">An Angular 6 App that I built to study the framework.
-                                                This
-                                                App
-                                                Filters my Artwork by Medium and Technique. All artwork is original,
-                                                mediums
-                                                include
-                                                Prismacolor, Oil, Charcoal, and Acrylics.
+                                                The App Filters Artwork by Medium and Technique, Prismacolor, Oil,
+                                                Charcoal,
+                                                and Acrylics. All artwork is original.
                                             </p>
                                             <a class="btn btnColor1 white-text btn-sm"
                                                 href="https://gallery1-21dc3.firebaseapp.com/dist/gallery"><i
@@ -216,8 +202,6 @@
                                 <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
                                     <div class="card">
                                         <div class="view overlay rounded z-depth-1" id="Paws">
-                                            <!-- <img src="https://mdbootstrap.com/img/Photos/Others/project4.jpg"
-                                            class="img-fluid" alt="Sample project image"> -->
                                             <a>
                                                 <div class="mask rgba-white-slight"></div>
                                             </a>
@@ -259,203 +243,127 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Container -->
                 </div>
             </div>
         </section>
-        <!--Section: projects-->
-
-        <!--Section: gallery-->
-        <section id="gallery" class="text-center py-5">
-
-            <!-- Container -->
-            <div class="container">
+        <div class="container-fluid" id="gallery">
+            <!--Section: gallery-->
+            <section id="gallery" class="text-center py-5">
                 <div class="row">
-                    <div class="col-md-12">
-                        <!-- Section heading -->
-                        <h2 class="h1-responsive font-weight-bold me mb-5">Fine Art Gallery</h2>
-                        <!-- Section description -->
-                        <p class="grey-text w-responsive mx-auto mb-5">Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit est laborum.</p>
+                    <div class="col-md-12 mx-auto mt-3 mb-1">
+                        <h2 class="h2 h2-responsive">Gallery</h2>
+                        <p class="section-description mt-5 pt-2">A collage of Art & Photography, Old and New.</p>
+                    </div>
 
+                    <div class="container">
+                        <div class="row ">
 
-
-                        <div id="mdb-lightbox-ui"></div>
-
-                        <div class="mdb-lightbox">
-
-                            <figure class="col-md-4">
-                                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(145).jpg"
-                                    data-size="1600x1067">
-                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(145).jpg"
-                                        class="img-fluid z-depth-1-half">
-                                </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(150).jpg"
-                                    data-size="1600x1067">
-                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(150).jpg"
-                                        class="img-fluid z-depth-1-half" />
-                                </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(152).jpg"
-                                    data-size="1600x1067">
-                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(152).jpg"
-                                        class="img-fluid z-depth-1-half" />
-                                </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(42).jpg"
-                                    data-size="1600x1067">
-                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg"
-                                        class="img-fluid z-depth-1-half" />
-                                </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(151).jpg"
-                                    data-size="1600x1067">
-                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(151).jpg"
-                                        class="img-fluid z-depth-1-half" />
-                                </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                                <a href="https://mdbootstrap.com/img/Photos/Lightbox/Original/img%20(40).jpg"
-                                    data-size="1600x1067">
-                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(40).jpg"
-                                        class="img-fluid z-depth-1-half" />
-                                </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                                <a href="#" data-size="1600x1067">
-                                    <img src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(148).jpg"
-                                        class="img-fluid z-depth-1-half" />
-                                </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                                <a href="#" <img src="" class="img-fluid z-depth-1-half" />
-                                </a>
-                            </figure>
-
-                            <figure class="col-md-4">
-                                <a href="#" <img src="" class="img-fluid z-depth-1-half" />
-                                </a>
-                            </figure>
-
+                            <a href="./resources/img/NativeFlutes.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="./resources/img/NativeFlutes.jpg" class="img-fluid rounded">
+                            </a>
+                            <a href="./resources/img/frogfull_08.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="./resources/img/frogfull_08.jpg" class="img-fluid rounded">
+                            </a>
+                            <a href="./resources/img/ArtWithoutColor2.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="resources/img/ArtWithoutColor2.jpg" class="img-fluid rounded">
+                            </a>
                         </div>
 
+                        <div class="row" id="galleryPics">
+                            <a href="./resources/img/Emir_09.jpg.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="./resources/img/Emir_09.jpg" class="img-fluid rounded">
+                            </a>
+                            <a href="./resources/img/wiseguy_01.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="./resources/img/wiseguy_01.jpg" class="img-fluid rounded">
+                            </a>
+                            <a href="./resources/img/WorkInProgress_16.jpg" data-toggle="lightbox"
+                                data-gallery="gallery" class="col-md-4">
+                                <img src="./resources/img/WorkInProgress_16.jpg" class="img-fluid rounded">
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
+        </div>
+
         </section>
-
-        <!-- contact-->
-        <section id="contact" class="py-5" <div class="container">
-            <!-- Section heading -->
-            <h2 class="h1-responsive font-weight-bold text-center me mb-5">Contact</h2>
-            <!-- Section description -->
-            <p class="text-center w-responsive mx-auto mb-5 white-text">Lorem ipsum dolor sit amet, consectetur
-                adipisicing
-                elit. Fugit, error amet numquam iure provident voluptate esse quasi, veritatis totam voluptas
-                nostrum quisquam eum porro a pariatur veniam.</p>
-            <div class="row">
-                <div class="col-md-9 mb-md-0 mb-5">
-                    <form>
-                        <!-- Grid row -->
-                        <div class="row">
-
-                            <!-- Grid column -->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="contact-name" class="form-control">
-                                    <label for="contact-name" class="me ml-2">Name</label>
+        </div>
+        <div id="contact">
+            <!-- contact-->
+            <section id="contact" class="py-5" <div class="container">
+                <!-- Section heading -->
+                <h2 class="h1-responsive font-weight-bold text-center me mb-5">Contact</h2>
+                <!-- Section description -->
+                <p class="text-center w-responsive mx-auto mb-5 white-text">If you have any questions regarding
+                    services,
+                    please feel free to contact me using the form below.</br> I look forward to hearing from you!</p>
+                <div class="row">
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="contact-name" class="form-control">
+                                        <label for="contact-name" class="me ml-2">Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="contact-email" class="form-control">
+                                        <label for="contact-email" class="me ml-2">Email</label>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- Grid column -->
-
-                            <!-- Grid column -->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="contact-email" class="form-control">
-                                    <label for="contact-email" class="me ml-2">Email</label>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0 me">
+                                        <input type="text" id="contact-Subject" class="form-control me">
+                                        <label for="contact-Subject" class="me ml-2">Subject</label>
+                                    </div>
                                 </div>
                             </div>
-                            <!-- Grid column -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="contact-message" class="form-control md-textarea"
+                                            rows="3"></textarea>
+                                        <label for="contact-message" class="me ml-2">Leave a message.</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
 
+                        <div class="text-center text-md-left">
+                            <a class="btn btnColor1 btn-md " style="color: #D3959B;">Send</a>
                         </div>
-                        <!-- Grid row -->
-
-                        <!-- Grid row -->
-                        <div class="row">
-
-                            <!-- Grid column -->
-                            <div class="col-md-12">
-                                <div class="md-form mb-0 me">
-                                    <input type="text" id="contact-Subject" class="form-control me">
-                                    <label for="contact-Subject" class="me ml-2">Subject</label>
-                                </div>
-                            </div>
-                            <!-- Grid column -->
-
-                        </div>
-                        <!-- Grid row -->
-
-                        <!-- Grid row -->
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="md-form">
-                                    <textarea type="text" id="contact-message" class="form-control md-textarea"
-                                        rows="3"></textarea>
-                                    <label for="contact-message" class="me ml-2">Leave a message.</label>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-
-                    <div class="text-center text-md-left">
-                        <a class="btn btnColor1 btn-md " style="color: #D3959B;">Send</a>
+                    </div>
+                    <div class=" col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <i class="fa fa-map-marker fa-2x dkgrey"></i>
+                                <p class="white-text">Medina, OH 44256</p>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone fa-2x mt-4 dkgrey"></i>
+                                <p class="white-text">+ 01 330 304 2510</p>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope fa-2x mt-4 dkgrey"></i>
+                                <p class="mb-0 white-text">stephanielakin13@gmail.com</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <!-- Grid column -->
-                <div class=" col-md-3 text-center">
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <i class="fa fa-map-marker fa-2x dkgrey"></i>
-                            <p class="white-text">Medina, OH 44256</p>
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-2x mt-4 dkgrey"></i>
-                            <p class="white-text">+ 01 330 304 2510</p>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-2x mt-4 dkgrey"></i>
-                            <p class="mb-0 white-text">stephanielakin13@gmail.com</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            </div>
+        </div>
         </section>
-
-
+        </div>
     </main>
-
-
-    <!-- Footer -->
     <footer class="page-footer font-small pt-4">
-
-        <!-- Footer Elements -->
         <div class="container">
-
-            <!-- Social buttons -->
             <ul class="list-unstyled list-inline text-center">
                 <li class="list-inline-item">
                     <a class="btn-floating btn-fb mx-1">
@@ -468,24 +376,16 @@
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn-floating btn-li mx-1">
+                    <a class="btn-floating btn-li mx-1" href="www.linkedin.com/in/stephaniejlakin ">
                         <i class="fab fa-linkedin dkgrey"> </i>
                     </a>
                 </li>
             </ul>
-            <!-- Social buttons -->
-
         </div>
-        <!-- Footer Elements -->
-
-        <!-- Copyright -->
         <div id="footer" class="footer-copyright text-center py-3">© 2020 Copyright:
             <p>Stephanie J. Lakin</p>
         </div>
-        <!-- Copyright -->
-
     </footer>
-    <!-- Footer -->
 </body>
 <!-- JQuery -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -496,5 +396,6 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+<script src="script.js"></script>
 
 </html>

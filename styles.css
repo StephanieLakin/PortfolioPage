@@ -19,16 +19,22 @@ a.navbar-brand.mama {
 a.navbar-brand.mama.top-nav-collapse {
   color: #d3959b !important;
 }
-
 .top-nav-collapse {
   background-color: #274046 !important;
   color: #fff !important;
   visibility: visible;
 }
 
+
 /* .navbar:not(.top-nav-collapse) {
   background: transparent !important;
 } */
+@media only screen and (max-width: 989px) {
+  #mobile-advanced,
+  .mobile_active.mobile_menu_tablet #advanced_menu_toggle {
+    display: block;
+  }
+}
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
@@ -65,10 +71,10 @@ a.navbar-brand.mama.top-nav-collapse {
     text-align: center;
     color: #fff !important;
   }
-  .navbar-brand.mama.navbar-toggler {
+  /* .navbar-brand.mama.navbar-toggler {
     color: #fff !important;
     visibility: visible;
-  }
+  } */
   .Rose {
     visibility: hidden;
   }

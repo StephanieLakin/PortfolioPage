@@ -25,7 +25,6 @@ a.navbar-brand.mama.top-nav-collapse {
   visibility: visible;
 }
 
-
 /* .navbar:not(.top-nav-collapse) {
   background: transparent !important;
 } */
@@ -114,7 +113,7 @@ nav {
   /* background-color: indigo !important; */
   padding-top: 0px !important;
 }
-.container-fluid purple-gradient {
+.container-fluid gradient {
   padding-top: 20px !important;
 }
 .display-3 {

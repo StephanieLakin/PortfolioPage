@@ -24,10 +24,6 @@ a.navbar-brand.mama.top-nav-collapse {
   color: #fff !important;
   visibility: visible;
 }
-
-/* .navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-} */
 @media only screen and (max-width: 989px) {
   #mobile-advanced,
   .mobile_active.mobile_menu_tablet #advanced_menu_toggle {
@@ -70,10 +66,6 @@ a.navbar-brand.mama.top-nav-collapse {
     text-align: center;
     color: #fff !important;
   }
-  /* .navbar-brand.mama.navbar-toggler {
-    color: #fff !important;
-    visibility: visible;
-  } */
   .Rose {
     visibility: hidden;
   }
@@ -91,7 +83,6 @@ a.navbar-brand.mama.top-nav-collapse {
     text-align: center !important ;
   }
 }
-
 .rgba-gradient {
   background: -moz-linear-gradient(
     45deg,
@@ -110,7 +101,6 @@ a.navbar-brand.mama.top-nav-collapse {
   );
 }
 nav {
-  /* background-color: indigo !important; */
   padding-top: 0px !important;
 }
 .container-fluid gradient {
@@ -123,7 +113,6 @@ nav {
   margin-left: 10%;
   padding-bottom: 0 !important;
 }
-
 .mama {
   font-family: 'Roboto', sans-serif;
   font-size: 1.8rem;
@@ -158,9 +147,6 @@ nav {
 h5 {
   color: #274046 !important;
 }
-/* h2 {
-  color: rgba(213, 15, 62, 0.6);
-} */
 .subtext-header {
   text-align: left;
   margin-left: 8%;
@@ -169,10 +155,6 @@ hr {
   text-align: left;
   margin-left: 8%;
 }
-/* .btn {
-  margin-left: 30%;
-} */
-/* Resume Page */
 .rec {
   padding-right: 0px !important;
   padding-left: 0px important;
@@ -193,16 +175,17 @@ hr {
   -moz-background-size: contain;
   -o-background-size: contain;
   background-size: contain;
-  background-color: #8b8378;
+  background-color: #546959;
   height: 300px;
   width: 100%;
 }
 #town {
-  background: url('./resources/img/town.JPG') no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url('./resources/img/town.JPG') no-repeat top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: rgb(31, 28, 28);
   height: 300px;
   width: 100%;
 }
@@ -217,7 +200,6 @@ hr {
     rgba(211, 149, 155, 0.69) 100%
   );
 }
-
 .gradient {
   background: linear-gradient(
     45deg,
@@ -237,6 +219,10 @@ hr {
 }
 .dkgrey {
   color: #274046;
+}
+
+#galleryPicsA {
+  margin-bottom: 3em;
 }
 
 /* end */

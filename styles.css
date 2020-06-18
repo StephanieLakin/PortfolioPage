@@ -161,7 +161,7 @@ hr {
   margin: 0px !important;
 }
 #galleryApp {
-  background: url('./resources/img/gallery.JPG') no-repeat;
+  background: url('./resources/img/gallery.jpg') no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -223,6 +223,19 @@ hr {
 
 #galleryPicsA {
   margin-bottom: 3em;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: #d3959b;
+}
+a:visited {
+  color: #fff;
+  a: hover;
+}
+a:active {
+  color: #d3959b;
 }
 
 /* end */

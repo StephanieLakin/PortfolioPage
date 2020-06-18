@@ -28,3 +28,22 @@ $(document).on('click', '[data-toggle="lightbox"]', function (event) {
   event.preventDefault();
   $(this).ekkoLightbox();
 });
+
+function loadEvents() {
+  var mailString;
+  function updateMailString() {
+    mailString =
+      '?subject=' +
+      encodeURIComponent($('#subject').val()) +
+      '&body=' +
+      encodeURIComponent($('#message').val());
+    $('#mail-link').attr('href', 'mailto:person@email.com' + mailString);
+  }
+  $('#subject').focusout(function () {
+    updateMailString();
+  });
+  $('#message').focusout(function () {
+    updateMailString();
+  });
+  updateMailString();
+}

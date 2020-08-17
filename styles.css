@@ -14,13 +14,13 @@ header,
   }
 }
 a.navbar-brand.mama {
-  color: #274046 !important;
+  color: #646d5c !important;
 }
 a.navbar-brand.mama.top-nav-collapse {
   color: #d3959b !important;
 }
 .top-nav-collapse {
-  background-color: #274046 !important;
+  background-color: #646d5c !important;
   color: #fff !important;
   visibility: visible;
 }
@@ -33,7 +33,7 @@ a.navbar-brand.mama.top-nav-collapse {
 
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: #274046 !important;
+    background: #646d5c !important;
     text-align: center;
     color: #fff !important;
   }
@@ -62,7 +62,7 @@ a.navbar-brand.mama.top-nav-collapse {
 }
 @media (max-width: 768px) {
   .navbar:not(.top-nav-collapse) {
-    background: #274046 !important;
+    background: #646d5c !important;
     text-align: center;
     color: #fff !important;
   }
@@ -118,7 +118,7 @@ nav {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 2;
-  color: #274046 !important;
+  color: #646d5c !important;
 }
 .floral {
   width: 100%;
@@ -145,7 +145,7 @@ nav {
   margin-bottom: 0px;
 }
 h5 {
-  color: #274046 !important;
+  color: #646d5c !important;
 }
 .subtext-header {
   text-align: left;
@@ -189,36 +189,70 @@ hr {
   height: 300px;
   width: 100%;
 }
+#cards {
+  background: url('./resources/img/Business Cards - Multiple.jpg') no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 300px;
+  width: 100%;
+}
+#letter {
+  background: url('./resources/img/LetterHead.JPG') no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: #546959;
+  height: 300px;
+  width: 100%;
+}
+#mags {
+  background: url('./resources/img/Leave.JPG') no-repeat top;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  background-color: rgb(31, 28, 28);
+  height: 300px;
+  width: 100%;
+}
 .me {
-  color: #274046 !important;
+  color: #08140a !important;
 }
 #contact,
 #projects {
   background: linear-gradient(
     45deg,
-    rgba(39, 64, 70, 0.6),
-    rgba(211, 149, 155, 0.69) 100%
+    /* rgba(39, 64, 70, 0.6),
+    rgba(211, 149, 155, 0.69) 100% */
+      rgba(72, 72, 74, 0.6),
+    rgba(100, 109, 92, 0.69) 100%
   );
 }
 .gradient {
   background: linear-gradient(
     45deg,
-    rgba(39, 64, 70, 0.6),
-    rgba(211, 149, 155, 0.69) 100%
+    /* rgba(39, 64, 70, 0.6),
+    rgba(211, 149, 155, 0.69) 100% */
+      rgba(72, 72, 74, 0.6),
+    rgba(100, 109, 92, 0.69) 100%
   );
 }
 #footer {
   background: linear-gradient(
     45deg,
-    rgba(211, 149, 155, 0.6),
-    rgba(39, 64, 70, 0.69) 100%
+    rgba(72, 72, 74, 0.6),
+    rgba(100, 109, 92, 0.69) 100%
   );
 }
 .btnColor1 {
-  background-color: #274046;
+  background-color: #646d5c;
 }
 .dkgrey {
-  color: #274046;
+  /* color: #646d5c; */
+  color: #08140a;
 }
 
 #galleryPicsA {
@@ -237,5 +271,24 @@ a:visited {
 a:active {
   color: #d3959b;
 }
-
+#logo {
+  height: 8em;
+  width: auto;
+  position: relative;
+  text-align: center;
+}
+.navbar-brand mama {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* #logo2 {
+  margin-right: 1em;
+  height: 20em;
+  width: auto;
+  float: left;
+  clear: both;
+} */
+/*
 /* end */

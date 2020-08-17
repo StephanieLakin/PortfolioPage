@@ -23,15 +23,18 @@
     <header>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <img id="logo" src="resources/img/Asset 1.png" class="ml-0  pl-0 ">
+            <a class="navbar-brand mama  " style="color:#D3959B; font-family: 'Roboto'; font-size: 2rem; w-100%"
+                href="#intro">Stephanie J.
+                Lakin</a>
             <div class="container">
-                <a class="navbar-brand mama" style="color:#D3959B; font-family: 'Arizonia', cursive; font-size: 2rem;"
-                    href="#">Stephanie J. Lakin</a>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
                     aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav mr-auto smooth-scroll">
+                    <ul class="navbar-nav mx-auto smooth-scroll">
                         <li class="nav-item">
                             <a class="nav-link" href="#intro">Home
                             </a>
@@ -55,13 +58,14 @@
                     <!-- Social Icons  -->
                     <ul class="navbar-nav nav-flex-icons">
                         <li class="nav-item">
-                            <a class="nav-link" href="https://www.linkedin.com/in/stephaniejlakin">
+                            <a class="nav-link" href="https://www.linkedin.com/in/stephaniejlakin" target="_blank">
                                 <i class="fab fa-linkedin"></i>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link">
-                                <i class="fab fa-twitter "></i>
+                            <a class="nav-link" href="https://www.facebook.com/Art-by-Stephanie-583137992383051/"
+                                target="_blank">
+                                <i class="fab fa-facebook "></i>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -75,11 +79,12 @@
         </nav>
         <!--End  Navbar -->
         <!-- Home Page -->
-        <div id="intro" class="view">
+        <div id="intro" class="view  ">
             <!-- <video class="video-intro" playsinline autoplay muted loop <source src="./resources/img/GullsVideo.mp4"
                 type="video/mp4">
             </video> -->
-            <img class="img-fluid Rose" src="./resources/img/FadedRose.jpg" alt="self">
+            <div class="my-10"></div>
+            <img class="img-fluid Rose  mt-5" src="./resources/img/FadedRose.jpg" alt="self">
             <!-- Mask & flexbox -->
             <div class="mask rgba-gradient d-flex justify-content-center align-items-center">
                 <!-- Content -->
@@ -92,7 +97,7 @@
                                 Art, Web
                                 Development, Branding and Design Services</h4>
                             <a href="#contact" class="btn btn-rounded col-sm-offset-4 btn-outline-white">
-                                <i class="fa fa-heart" style="color: #D3959B;"></i> Contact
+                                <i class="fa fa-heart" style="color:#D3959B"></i> Contact
                             </a>
                         </div>
                     </div>
@@ -104,9 +109,9 @@
     <main>
         <div class="container-fluid">
             <!--Section: about-->
-            <section class="py-5 my-10" id="about">
+            <section class="py-5 my-10  mx-auto" id="about">
                 <div class="container">
-                    <div class="col-xl-10 col-md-11 col-10">
+                    <div class="col-xl-12 col-md-9 col-12">
                         <h2 class="h2-responsive font-weight-bold text-center me mb-3">About Me</h2>
                         <!-- Section description -->
                         <h5 class="lead grey-text text-justify w-responsive mx-auto mb-5">Currently enrolled full
@@ -146,7 +151,7 @@
                             growing
                             and changing field.</p>
 
-                        <h5 class="h5-responsive font-weight-bold mb-3 text-center">Graphic Design</h5>
+                        <h5 class="h5-responsive font-weight-bold mb-3 text-center me">Graphic Design</h5>
                         <p class="grey-text mb-0 text-left mb-5">I completed a Commercial Art and Advertising
                             vocational training program my last two years of high school. I learned about paste up back
                             in the day when we were still using paste, and layers meant turning the page on your pad of
@@ -163,7 +168,7 @@
                 <div class="container-fluid">
                     <div class="row mb-3 mx-auto">
                         <section id="projects" class="text-center py-5" style="background-color: #eee;">
-                            <div class="col-xl-12 col-md-19 col-12">
+                            <div class="col-xl-12 col-md-9 col-12">
                                 <h2 class="h1-responsive font-weight-bold text-center mb-5 me">My Favorite Projects
                                 </h2>
                                 <p class="white-text w-responsive mx-auto mb-5">Here are a few of my favorite projects,
@@ -245,171 +250,240 @@
                                 </div>
                             </div>
                     </div>
-                </div>
-            </section>
-            <div class="container-fluid" id="gallery">
-                <!--Section: gallery-->
-                <section id="gallery" class="text-center py-5">
-                    <div class="row">
-                        <div class="col-md-12 mx-auto mt-3 mb-1">
-                            <h2 class="h2 h2-responsive">Gallery</h2>
-                            <p class="section-description mt-3 mb-3 pt-2">A collage of Art & Photography, Old and New.
-                            </p>
-                        </div>
-
-                        <div class="container">
-                            <div class="row" id="galleryPicsA">
-
-                                <a href=" ./resources/img/NativeFlutes.jpg" data-toggle="lightbox"
-                                    data-gallery="gallery" class="col-md-4">
-                                    <img src="./resources/img/NativeFlutes.jpg" id="flutes"
-                                        class="img-fluid card-img h-100 rounded">
-                                </a>
-                                <a href="./resources/img/ArtWithoutColor2.jpg" data-toggle="lightbox"
-                                    data-gallery="gallery" class="col-md-4">
-                                    <img src="resources/img/ArtWithoutColor2.jpg" id="paint"
-                                        class="img-fluid rounded  card-img h-100 ">
-                                </a>
-                                <a href="./resources/img/WeatheredMask.jpg" data-toggle="lightbox"
-                                    data-gallery="gallery" class="col-md-4">
-                                    <img src="resources/img/WeatheredMask.jpg" id="paint"
-                                        class="img-fluid rounded  card-img h-100 ">
-                                </a>
-                            </div>
-
-                            <div class="row mb-5" id="galleryPicsB">
-                                <a href="./resources/img/Emir_09.jpg" data-toggle="lightbox" data-gallery="gallery"
-                                    class="col-md-4">
-                                    <img src="./resources/img/Emir_09.jpg" id="emir"
-                                        class="img-fluid  rounded card-img  h-100">
-                                </a>
-                                <a href="./resources/img/wiseguy_01.jpg" data-toggle="lightbox" data-gallery="gallery"
-                                    class="col-md-4">
-                                    <img src="./resources/img/wiseguy_01.jpg" id="owl"
-                                        class="img-fluid rounded card-img h-100 ">
-                                </a>
-                                <a href="./resources/img/WorkInProgress_16.jpg" data-toggle="lightbox"
-                                    data-gallery="gallery" class="col-md-4">
-                                    <img src="./resources/img/WorkInProgress_16.jpg" id="flutes" george
-                                        class="img-fluid rounded card-img h-100 ">
-                                </a>
-                            </div>
-
-                            <div class="row" id="galleryPicsC">
-
-                                <a href=" ./resources/img/GoldenShoes.jpg" data-toggle="lightbox" data-gallery="gallery"
-                                    class="col-md-4">
-                                    <img src="./resources/img/GoldenShoes.jpg" id="flutes"
-                                        class="img-fluid card-img h-100 rounded">
-                                </a>
-                                <a href="./resources/img/frogfull_08.jpg" data-toggle="lightbox" data-gallery="gallery"
-                                    class="col-md-4">
-                                    <img src="./resources/img/frogfull_08.jpg" id="frogs"
-                                        class="img-fluid card-img h-100  rounded h-100">
-                                </a>
-                                <a href="./resources/img/Secrets.jpg" data-toggle="lightbox" data-gallery="gallery"
-                                    class="col-md-4">
-                                    <img src="resources/img/Secrets.jpg" id="paint"
-                                        class="img-fluid rounded  card-img h-100 ">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </section>
-            </div>
-            <div id="contact">
-                <!-- contact-->
-                <section id="contact" class="py-5" <div class="container-fluid">
-                    <!-- Section heading -->
-                    <h2 class="h1-responsive font-weight-bold text-center me mb-3">Contact</h2>
-                    <!-- Section description -->
-                    <p class="text-center w-responsive mx-auto mb-5 white-text">If you have any questions regarding
-                        services,
-                        please feel free to contact me using the form below.</br> I look forward to hearing from you!
-                    </p>
-                    <div class="row">
-                        <div class="col-md-9 mb-md-0 mb-5">
-                            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="contact-name" class="form-control">
-                                            <label for="contact-name" class="white-text ml-3">Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="contact-email" class="form-control">
-                                            <label for="contact-email" class="white-text ml-3">Email</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-0 me">
-                                            <input type="text" id="contact-Subject" class="form-control me">
-                                            <label for="contact-Subject" class="white-text ml-3">Subject</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form">
-                                            <textarea type="text" id="contact-message" class="form-control md-textarea"
-                                                rows="3"></textarea>
-                                            <label for="contact-message" class="white-text ml-3">Leave a
-                                                message.</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            <div class="text-center text-md-left">
-                                <a class="btn btnColor1 btn-md ml-3" style="color: #D3959B;" type="submit"
-                                    value="Send">Send</a>
-                            </div>
-                        </div>
-                        <div class=" col-md-3 text-center">
-                            <ul class="list-unstyled mb-0">
-                                <li>
-                                    <i class="fa fa-map-marker fa-2x dkgrey"></i>
+                    <!-- new row -->
+                    <div class="row text-center mx-auto">
+                        <div class="col-lg-4 col-md-12 mb-lg-0 mb-3 mx-auto">
+                            <div class="card">
+                                <div class="view overlay rounded z-depth-1" id="cards">
+                                    <a>
+                                        <div class="mask rgba-white-slight "></div>
                                     </a>
-                                    <p class="white-text"><a href="https://goo.gl/maps/mTxVzkbBSPMzgXrb7"
-                                            target="_blank">Medina, Oh
-                                            44256</a></p>
-                                </li>
-                                <li>
-                                    <i class="fa fa-phone fa-2x mt-4 dkgrey"></i>
-                                    <p class="white-text"><a href="tel: +133303042510">
-                                            330-304-2510</a></p>
-                                </li>
-                                <li>
-                                    <i class="fa fa-envelope fa-2x mt-4 dkgrey"></i>
-                                    <p class="mb-0  white-text p-responsive">
-                                        <a href=" mailto:stephanielakin13@gmail.com" target="_blank">
-                                            stephanielakin13@gmail.com
-                                        </a>
+                                </div>
+                                <div class="card-body pb-0">
+                                    <h4 class="font-weight-bold my-5">My Business Cards</h4>
+                                    <p class="grey-text">I was going for something clean and simple, black & White,
+                                        so that they can be printed on colored papers for variety.
                                     </p>
-                                </li>
-                            </ul>
+                                    <a class="btn btnColor1 white-text btn-sm"
+                                        href="resources/img/Business Cards - Front _ Back Views.jpg" target="_blank"><i
+                                            id=""></i>
+                                        View
+                                        Item</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                            <div class="card">
+                                <div class="view overlay rounded z-depth-1" id="letter">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+                                <div class="card-body pb-0">
+                                    <h4 class="font-weight-bold my-5">Letterhead</h4>
+                                    <p class="grey-text">Again, here I was going for a clean and simple style,
+                                        to match my business cards. I also wanted plenty of room left to write
+                                        a letter on!
+                                    </p>
+                                    <a class="btn btnColor1 white-text btn-sm"
+                                        href="resources\img\LetterHead_BusinessCardFinal.pdf" target="_blank"><i
+                                            class=""></i>
+                                        View Item</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
+                            <div class="card">
+                                <div class="view overlay rounded z-depth-1" id="mags">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+                                <div class="card-body pb-0">
+                                    <h4 class="font-weight-bold my-5">Refrigerator Magnets</h4>
+                                    <p class="grey-text">I've taken some of my favorite artwork and turned it into
+                                        personal avertising as a leave behind piece.
+                                    </p>
+                                    <a class="btn btnColor1 white-text btn-sm" href="resources\img\LeaveThree.JPG"
+                                        target="_blank"><i class=""></i> View
+                                        Item</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-            </div>
+                </div>
+        </div>
+        <!-- end new row -->
+        </div>
+        </section>
+        <div class="container-fluid" id="gallery">
+            <!--Section: gallery-->
+            <section id="gallery" class="text-center py-5">
+                <div class="row">
+                    <div class="col-md-12 mx-auto mt-3 mb-1">
+                        <h2 class="h2 h2-responsive">Gallery</h2>
+                        <p class="section-description mt-3 mb-3 pt-2">A collage of Art & Photography, Old and New.
+                        </p>
+                    </div>
+
+                    <div class="container">
+                        <div class="row" id="galleryPicsA">
+
+                            <a href=" ./resources/img/NativeFlutes.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="./resources/img/NativeFlutes.jpg" id="flutes"
+                                    class="img-fluid card-img h-100 rounded">
+                            </a>
+                            <a href="./resources/img/ArtWithoutColor2.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="resources/img/ArtWithoutColor2.jpg" id="paint"
+                                    class="img-fluid rounded  card-img h-100 ">
+                            </a>
+                            <a href="./resources/img/WeatheredMask.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="resources/img/WeatheredMask.jpg" id="paint"
+                                    class="img-fluid rounded  card-img h-100 ">
+                            </a>
+                        </div>
+
+                        <div class="row mb-5" id="galleryPicsB">
+                            <a href="./resources/img/Emir_09.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="./resources/img/Emir_09.jpg" id="emir"
+                                    class="img-fluid  rounded card-img  h-100">
+                            </a>
+                            <a href="./resources/img/wiseguy_01.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="./resources/img/wiseguy_01.jpg" id="owl"
+                                    class="img-fluid rounded card-img h-100 ">
+                            </a>
+                            <a href="./resources/img/WorkInProgress_16.jpg" data-toggle="lightbox"
+                                data-gallery="gallery" class="col-md-4">
+                                <img src="./resources/img/WorkInProgress_16.jpg" id="flutes" george
+                                    class="img-fluid rounded card-img h-100 ">
+                            </a>
+                        </div>
+
+                        <div class="row" id="galleryPicsC">
+
+                            <a href=" ./resources/img/GoldenShoes.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="./resources/img/GoldenShoes.jpg" id="flutes"
+                                    class="img-fluid card-img h-100 rounded">
+                            </a>
+                            <a href="./resources/img/frogfull_08.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="./resources/img/frogfull_08.jpg" id="frogs"
+                                    class="img-fluid card-img h-100  rounded h-100">
+                            </a>
+                            <a href="./resources/img/Secrets.jpg" data-toggle="lightbox" data-gallery="gallery"
+                                class="col-md-4">
+                                <img src="resources/img/Secrets.jpg" id="paint"
+                                    class="img-fluid rounded  card-img h-100 ">
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
             </section>
+        </div>
+
+        <div id="contact">
+            <!-- contact-->
+            <section id="contact" class="py-5" <div class="container-fluid">
+                <!-- Section heading -->
+                <h2 class="h1-responsive font-weight-bold text-center white-text me mb-3">Contact</h2>
+                <!-- Section description -->
+                <p class="text-center w-responsive mx-auto mb-5 white-text">If you have any questions regarding
+                    services,
+                    please feel free to contact me using the form below.</br> I look forward to hearing from you!
+                </p>
+                <div class="row">
+                    <div class="col-md-9 mb-md-0 mb-5">
+                        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="contact-name" class="form-control">
+                                        <label for="contact-name" class="white-text ml-3">Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="contact-email" class="form-control">
+                                        <label for="contact-email" class="white-text ml-3">Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0 me">
+                                        <input type="text" id="contact-Subject" class="form-control me">
+                                        <label for="contact-Subject" class="white-text ml-3">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="contact-message" class="form-control md-textarea"
+                                            rows="3"></textarea>
+                                        <label for="contact-message" class="white-text ml-3">Leave a
+                                            message.</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="text-center text-md-left">
+                            <a class="btn btnColor1 btn-md ml-3" style="color: #D3959B;" type="submit"
+                                value="Send">Send</a>
+                        </div>
+                    </div>
+                    <div class=" col-md-3 text-center">
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <i class="fa fa-map-marker fa-2x dkgrey"></i>
+                                </a>
+                                <p class="white-text"><a href="https://goo.gl/maps/mTxVzkbBSPMzgXrb7"
+                                        target="_blank">Medina, Oh
+                                        44256</a></p>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone fa-2x mt-4 dkgrey"></i>
+                                <p class="white-text"><a href="tel: +133303042510">
+                                        330-304-2510</a></p>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope fa-2x mt-4 dkgrey"></i>
+                                <p class="mb-0  white-text p-responsive">
+                                    <a href=" mailto:stephanielakin13@gmail.com" target="_blank">
+                                        stephanielakin13@gmail.com
+                                    </a>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+        </section>
         </div>
     </main>
     <footer class="page-footer font-small pt-4">
         <div class="container">
             <ul class="list-unstyled list-inline text-center">
                 <li class="list-inline-item">
-                    <a class="btn-floating btn-fb mx-1">
-                        <i class="fab fa-facebook dkgrey"> </i>
+                    <a class="btn-floating btn-fb mx-1" href="https://www.instagram.com/stephaniej.lakin/?hl=en"
+                        target="_blank">
+                        <i class="fab fa-instagram dkgrey">
+                        </i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn-floating btn-tw mx-1">
-                        <i class="fab fa-twitter dkgrey"> </i>
+                    <a class="btn-floating btn-fb mx-1"
+                        href="https://www.facebook.com/Art-by-Stephanie-583137992383051/" target="_blank">
+                        <i class="fab fa-facebook dkgrey"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">

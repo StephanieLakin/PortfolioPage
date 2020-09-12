@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
 html,
 body,
 header,
@@ -53,7 +54,7 @@ a.navbar-brand.mama.top-nav-collapse {
   }
   .display-3 {
     color: #ffffff;
-    font-family: 'Arizonia', cursive;
+    font-family: 'Mrs Saint Delafield', cursive;
     text-align: Center !important;
   }
   .subtext-header {
@@ -76,7 +77,7 @@ a.navbar-brand.mama.top-nav-collapse {
   }
   .display-3 {
     color: #ffffff;
-    font-family: 'Arizonia', cursive;
+    font-family: 'Mrs Saint Delafield', cursive;
     text-align: Center !important;
   }
   .subtext-header {
@@ -108,8 +109,8 @@ nav {
 }
 .display-3 {
   color: #ffffff;
-  font-family: 'Arizonia', cursive;
-  text-align: left;
+  font-family: 'Mrs Saint Delafield', cursive;
+  text-align: center;
   margin-left: 10%;
   padding-bottom: 0 !important;
 }
@@ -272,13 +273,16 @@ a:active {
   color: #d3959b;
 }
 #logo {
-  height: 8em;
-  width: auto;
+  width: 20rem;
+  height: 15rem;
+  padding: 0;
+  margin: 0;
   position: relative;
   text-align: center;
 }
 .navbar-brand mama {
   position: absolute;
+  font-family: 'Mrs Saint Delafield', cursive;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
